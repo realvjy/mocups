@@ -17,7 +17,7 @@ class BlogIndex extends React.Component {
           <div className="container">
             <nav>
               <Link to={`/`} className="brand">
-                <img src="/mocup-logo.png" className="logo" alt="mocup" />
+                <img src="mocup-logo.png" className="logo" alt="mocup" />
               </Link>
               <div className="menu">
                 <ul className="menu-links">
@@ -42,7 +42,7 @@ class BlogIndex extends React.Component {
               <h3>ALL IN ONE MOCKUPS</h3>
               <p>More than 30+ variants fully editable and dribbble ready artboard. Including mini, pro, pro max</p>
               <a href="#" className="download">COMING SOON</a>
-              <div className="tool"><img src="/tools.png"/></div>
+              <div className="tool"><img src="tools.png"/></div>
             </div>
           </div>
         </section>
