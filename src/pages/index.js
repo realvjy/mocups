@@ -12,7 +12,7 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="MOCUP - iPhone 12 Mockups" />
+        <SEO title="MOCUPS - iPhone 12 Mockups" />
         <section className="header_section">
           <div className="container">
             <nav>
@@ -28,7 +28,7 @@ class BlogIndex extends React.Component {
                     <a href="#" title="mac">Mac</a>
                   </li>
                   <li>
-                    <a href="#" title="bmc">buy me a copy</a>
+                    <a href="https://www.buymeacoffee.com/realvjy" title="bmc">buy me a coffee</a>
                   </li>
                 </ul>
               </div>
