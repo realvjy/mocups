@@ -17,7 +17,7 @@ class BlogIndex extends React.Component {
           <div className="container">
             <nav>
               <Link to={`/`} className="brand">
-                <img src="mocup-logo.png" className="logo" alt="mocup" />
+                <img src="mocups-logo.png" className="logo" alt="mocup" />
               </Link>
               <div className="menu">
                 <ul className="menu-links">
