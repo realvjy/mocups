@@ -38,11 +38,23 @@ class BlogIndex extends React.Component {
         <section className="hero_section">
           <div className="container">
             <div className="hero">
-              <h1><img src="iphone-12.png"/></h1>
-              <h3>ALL IN ONE MOCKUPS</h3>
-              <p>More than 30+ variants fully editable and dribbble ready artboard. Including mini, pro, pro max</p>
-              <a href="#" className="download">COMING SOON</a>
-              <div className="tool"><img src="tools.png"/></div>
+              <div className="text-detail">
+                <div className="info">
+                  <h1><img src="iphone-12.png"/></h1>
+                  <h3>ALL IN ONE MOCKUPS</h3>
+                  <p>More than 30+ variants fully editable and dribbble ready artboard. Including mini, pro, pro max</p>
+                  <a href="#" className="download">COMING SOON</a>
+                  <div className="tool"><img src="tools.png"/></div>
+                </div>
+                <div className="credit">
+                  <p>Made with love ❤ and coffee by <a href="https://vijayverma.co">vijay verma</a> @realvjy</p>
+                </div>
+              </div>
+              <div className="mocups">
+                <div className="images">
+                  <img src="all-iphones.png" />
+                </div>
+              </div>
             </div>
           </div>
         </section>
