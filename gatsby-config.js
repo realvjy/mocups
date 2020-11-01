@@ -5,7 +5,7 @@ module.exports = {
       name: `vijay verma`,
       summary: `design chef at zomato`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `All in one mocups`,
     siteUrl: `https://vijayverma.co/mocup`,
     social: {
       twitter: `realvjy`,
@@ -53,7 +53,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `G-6Q7949QRN5`,
       },
     },
     `gatsby-plugin-feed`,
@@ -64,9 +64,9 @@ module.exports = {
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#06172C`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/mocups-icon.png`,
       },
     },
     `gatsby-plugin-react-helmet`,

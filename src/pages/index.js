@@ -12,7 +12,7 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="MOCUPS - iPhone 12 Mockups" />
+        <SEO title="iPhone 12 Mockups" />
         <section className="header_section">
           <div className="container">
             <nav>
@@ -28,7 +28,7 @@ class BlogIndex extends React.Component {
                     <a href="#" title="mac">Mac</a>
                   </li>
                   <li>
-                    <a href="https://www.buymeacoffee.com/realvjy" title="bmc">buy me a coffee</a>
+                    <a href="https://www.buymeacoffee.com/realvjy" title="twitter">share on twitter <img src="twitter.svg"/></a>
                   </li>
                 </ul>
               </div>
@@ -42,8 +42,24 @@ class BlogIndex extends React.Component {
                 <div className="info">
                   <h1><img src="iphone-12.png"/></h1>
                   <h3>ALL IN ONE MOCKUPS</h3>
-                  <p>More than 30+ variants fully editable and dribbble ready artboard. Including mini, pro, pro max</p>
-                  <a href="#" className="download">COMING SOON</a>
+                  <p>More than 20+ variants fully editable and dribbble ready artboard. Including mini, pro, pro max</p>
+                  <div className="btn-lnks">
+                    <div className="dwn-links">
+                      <button className="btn btn-download">
+                        <h4>Download Now</h4>
+                      </button>
+                      <ul className="dwn-list">
+                        <li><a href="http://bit.ly/iPhone12-MOCUPS-Figma"><img src="figma.png"/> Figma</a></li>
+                        <li><a href="https://bit.ly/iPhone12-MOCUPS-Sketch"><img src="sketch.png"/> Sketch</a></li>
+                        <li><a href="https://bit.ly/iPhone12-MOCUPS-XD"><img src="xd.png"/> Adobe XD</a></li>
+                        <li><a href="https://bit.ly/iPhone12-MOCUPS-PSD"><img src="ps.png"/> Photoshop</a></li>
+                        <li><a href="http://bit.ly/iPhone12-MOCUPS-Studio"><img src="studio.png"/> Invision Studio</a></li>
+                      </ul>
+                    </div>
+                    <a href="https://www.buymeacoffee.com/realvjy" className="btn btn-coffee">
+                      <h4>Buy me a coffee</h4>
+                    </a>
+                  </div>
                   <div className="tool"><img src="tools.png"/></div>
                 </div>
                 <div className="credit">
