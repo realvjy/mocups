@@ -5,7 +5,7 @@ module.exports = {
       name: `vijay verma`,
       summary: `design chef at zomato`,
     },
-    description: `All in one mocups`,
+    description: `More than 20+ variants fully editable and dribbble ready artboard. Including mini, pro, pro max`,
     siteUrl: `https://vijayverma.co/mocup`,
     social: {
       twitter: `realvjy`,
