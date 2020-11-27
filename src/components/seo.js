@@ -36,11 +36,19 @@ const SEO = ({ description, lang, meta, title }) => {
         lang,
       }}
       title={title}
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
+      titleTemplate={`%s`}
       meta={[
         {
           name: `description`,
           content: metaDescription,
+        },
+        {
+          name: `keywords`,
+          content: `mockups, iphone 12 mockup, iphone wireframe, iphone mockup, vijay verma, realvjy, figma, ui, ui design, open source design, ui ux`,
+        },
+        {
+          property: `og:image`,
+          content: `preview.jpg`,
         },
         {
           property: `og:title`,
@@ -55,12 +63,24 @@ const SEO = ({ description, lang, meta, title }) => {
           content: `website`,
         },
         {
+          property: `og:site_name`,
+          content: `vijayverma.co`,
+        },
+        {
+          property: `og:url`,
+          content: site.siteMetadata.siteUrl,
+        },
+        {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata?.social?.twitter || ``,
+          content: `@realvjy`,
+        },
+        {
+          name: `twitter:url`,
+          content: site.siteMetadata.siteUrl,
         },
         {
           name: `twitter:title`,
@@ -69,6 +89,10 @@ const SEO = ({ description, lang, meta, title }) => {
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          name: `twitter:image`,
+          content: `preview.jpg`,
         },
       ].concat(meta)}
     />

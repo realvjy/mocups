@@ -28,7 +28,7 @@ class BlogIndex extends React.Component {
                     <a href="#" title="mac">Mac</a>
                   </li>
                   <li>
-                    <a href="https://www.buymeacoffee.com/realvjy" title="twitter">share on twitter <img src="twitter.svg"/></a>
+                    <a href="https://twitter.com/intent/tweet?text=iPhone%2012%20all%20in%20one%20mockups%20library%20with%20more%20than%2020%20variants%20available%20for%20Figma,%20Sketch,%20XD,%20Photoshop%20and%20Studio%20by%20@realvjy%20https://vijayverma.co/mocups" title="twitter">share on twitter <img src="twitter.svg"/></a>
                   </li>
                 </ul>
               </div>
