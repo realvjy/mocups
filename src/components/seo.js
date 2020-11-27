@@ -48,7 +48,7 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           property: `og:image`,
-          content: `preview.jpg`,
+          content: `https://vijayverma.co/mocups/preview.jpg`,
         },
         {
           property: `og:title`,
@@ -92,7 +92,7 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           name: `twitter:image`,
-          content: `preview.jpg`,
+          content: `https://vijayverma.co/mocups/preview.jpg`,
         },
       ].concat(meta)}
     />
